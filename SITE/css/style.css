@@ -1,0 +1,211 @@
+/* tamanho da pagina */
+
+html{
+	height:101%;
+}
+/* tamanho e posicao da imagem */
+.img{
+	width:19%;
+	
+	/* background-color:#f23;	*/
+	
+	float:left;
+	
+	
+	
+}
+/* tamanho do menu */
+.topo {
+    position: relative; /*  zerando as margens do documento  */
+	margin:10px auto; /*  essa proriedade faz com que a div fique centralizada na tela  */
+	height:120px;           /*  altura do documento  */
+	width:1180px;	/*  largura do documento  */	
+	/* border:1px solid  #cccccc; /*  definindo a espeçura da borda e a cor  */	
+}
+	
+.menu {
+	margin:0 auto;
+    display:table;
+	padding:22px;
+}
+
+.menu ul li {
+	 /* background-color:#f23; */ 	
+	font-family:"Century gothic regular";
+	font-size:18px;
+	color:#00532a;
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	line-height:40px;
+	text-align:left;
+}
+.menu ul li a:hover{
+	color:#000;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#191970;
+	
+}
+
+.menu ul{
+	padding:0px;
+}
+/* tamanho da demonstração da planilha 1 */
+.home{
+	/* border:1px solid  #cccccc;*/
+	height:50%;
+	margin:0 auto;
+    display:table;
+	padding:10px;
+	float:left;
+
+}
+
+.home h2{
+color:#263c53;	
+
+}
+.home p{
+	color:#A9A9A9;	
+}
+/* tamanho da demonstração da planilha 2 */
+.home2{
+	/* border:1px solid  #cccccc;*/
+	height:50%;
+	margin:0 auto;
+    display:table;
+	padding:10px;
+	float:right;
+
+	
+}
+
+.home2 h2{
+color:#263c53;	
+
+}
+.home2 p{
+	color:#A9A9A9;	
+}
+/* tamanho da div // demonstração da planilha */
+.home3 {
+	position: relative; /*  zerando as margens do documento  */
+	margin:0 auto; /*  essa proriedade faz com que a div fique centralizada na tela  */
+	height:400px;           /*  altura do documento  */
+	width:900px;	/*  largura do documento  */	
+	/* border:1px solid  #cccccc;*/	
+	font-family:"Century gothic regular";
+	
+}
+
+
+
+/*///////// PAGINA SOBRE ////////////////*/
+/* corpo da pagina */
+.corpo {
+	position: relative; /*  zerando as margens do documento  */
+	margin:0 auto; /*  essa proriedade faz com que a div fique centralizada na tela  */
+	margin-top:10px;
+	height:200px;           /*  altura do documento  */
+	width:950px;	/*  largura do documento  */	
+	/* border:1px solid  #cccccc; /*  definindo a espeçura da borda e a cor  */	
+	font-family:"Century gothic regular";
+	text-align:justify;
+	
+}
+
+.corpo2 {
+	position: relative; /*  zerando as margens do documento  */
+	margin:0 auto; /*  essa proriedade faz com que a div fique centralizada na tela  */
+	margin-top:10px;
+	height:500px;           /*  altura do documento  */
+	width:1250px;	/*  largura do documento  */	
+	/* border:1px solid  #cccccc; /*  definindo a espeçura da borda e a cor  */	
+	font-family:"Century gothic regular";
+	text-align:justify;
+	
+}
+/* corpo da pagina com informaçoes */
+.location a{
+	text-decoration:none;
+	color:#00532a;
+}
+.location a:hover{
+	text-decoration:none;
+	color:#000;
+}
+.post3{
+width: 800px;
+height: 550px;
+float:left;
+margin-left:200px;
+
+}
+
+.barra{
+height:120%;           /*  altura do documento  */
+width:100%;	/*  largura do documento  */	
+
+margin:0 auto;
+background-color:#191970;
+}
+
+.posts{
+width: 650px;
+height: 290px;
+/*border:1px solid black;*/
+display: inline-block;
+
+}
+.post1{
+width: 670px;
+height: 550px;
+/*border:1px solid black;*/
+display: inline-block;
+}
+
+.fundoviagem{
+height:600px;           /*  altura do documento  */
+width:100%;	/*  largura do documento  */	
+border-top:6px solid #dcdcdc;
+border-bottom:6px solid #dcdcdc;
+margin:0 auto;
+background-color:#e8e8e8;
+}
+
+.post2{
+width: 950px;
+height: 550px;
+float:left;
+margin-left:200px;
+/*border:1px solid black;*/
+}
+
+hr {
+      color: #f00;
+      background-color: #f00;
+      height: 5px;
+    }
+
+
+.barradireita{
+width: 292px;
+height: 750px;
+float:right;
+margin-right: 100px;
+
+}
+
+button{
+
+
+	background-color:#191970;
+}
+
+button:hover{
+background-color: #1010e3; /* Green */
+
+}
+

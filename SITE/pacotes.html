@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Update sem Where - Agencia de viagens</title>
+
+    <!-- puxando o css do projeto e o bootstrap-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css1/modern-business.css" rel="stylesheet">
+        <link href="css1/bootstrap.min.css" rel="stylesheet">
+    <link href="css1/modern-business.css" rel="stylesheet">
+
+<!--- puxar o css do bootstrap pra fazer o carrossel de imagens -->
+            <link rel="stylesheet" href="css1/bootstrap.css" />
+            <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+            <script type="text/javascript" src="css1/js/bootstrap.js"></script>
+        
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">   
+
+    <style type="text/css">
+
+        #teste3{position:relative;top:0;padding:4px;
+         transition: all .3s ease-in-out}
+         #teste3:hover{top:-15px;box-shadow:0 4px 3px #999}
+
+         /* Dropdown Button */
+        .dropbtn {
+            background-color: white;
+            color: #191970;
+            font-family: "Century gothic";
+            padding: 16px;
+            font-size: 21px;
+            border: none;
+            border-radius: 4px 4px 4px;
+        }
+
+/* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+/* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+/* Links inside the dropdown */
+        .dropdown-content a {
+            color: #191970;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+/* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {background-color: #ddd;}
+
+        .mais {
+
+            font-family:"Century gothic regular";
+            font-size:14px;
+            font-weight: bold;
+        }
+
+        .image-menu {
+            width: 24px;
+            height: 24px;
+
+        }
+
+        .fundo{
+            width: 100%;
+            height: 200px;
+            margin-top: -60px;
+            border-radius: 28px 28px 28px 10px;
+            background-color: #001536;
+        }
+        .fundo2{
+            width: 100%;
+            height: 130px;
+            border-radius: 28px 28px 28px 10px;
+            margin-top: -100px;
+            background-color: white;
+        }
+
+        #inicio {
+            font-family: "Roboto";
+            font-size: 36px;            
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- INÍCIO TOPO (HEADER) -->
+<div class="topo">
+  <!-- imagem menu -->
+<div class="img"><a href="index.html"><img src="img/logo.png" width="180px" height="88px"align="right" style="user-select: none; margin-top: 20px" ></a></div>
+
+<!-- div menu -->
+
+<div class="menu" style="margin-top: -40px">
+
+    <ul style="user-select: none; ">
+        <li style="width:115px; "  class="dropdown" >
+            <a href="index.html">
+                <button class="dropbtn">
+                 <img src="img/home.png" style="width: 22px; height: 24px;" class="image-menu"> Home
+                </button></a>
+        </li>
+
+        <li style="width:150px; "  class="dropdown">
+            <a href="pacotes.html">
+                <button class="dropbtn">
+                    <img src="img/passagens.png" class="image-menu"> Passagens
+                </button>
+            </a>
+        </li>
+
+        <li style="width:130px; "  class="dropdown">
+            <a href="pacotes.html">
+                <button class="dropbtn">
+                    <img src="img/pacotes.png" class="image-menu"> Pacotes
+                </button>
+            </a>
+        </li>
+
+        <li style="width:150px; "  class="dropdown">
+            <a href="cruzeiros.html">
+                <button class="dropbtn">
+                     <img src="img/cruzeiro.png" class="image-menu"> Cruzeiros
+                </button>
+            </a>
+        </li>
+
+        <li style="width:115px; "  class="dropdown">
+            <a href="hoteis.html">
+                <button class="dropbtn">
+                    <img src="img/hotel.png" class="image-menu" style="width: 18px; height: 20px;"> Hoteis
+                </button>
+            </a>
+        </li>
+
+        <li style="width:125px; "  class="dropdown">
+            <a href="resorts.html">
+                <button class="dropbtn">
+                     <img src="img/cruzeiro.png" class="image-menu"> Resorts
+                </button>
+            </a>    
+        </li>
+
+        <div class="dropdown">
+            <button class="dropbtn">Mais 
+                <img src="img/seta.png">
+            </button>
+            <div class="dropdown-content">
+                <a class="mais" href="dicasviagem.html">
+                    <img src="img/dicas.png"> Dicas de Viagens
+                </a>
+                <a class="mais" href="contato.html">
+                    <img src="img/contato.png"> Contato
+                </a>
+        </div>
+    </div>
+    </ul>
+    </div>      
+</div>  
+    <!-- FIM--> 
+</div>
+<!-- FIM TOPO (HEADER) -->
+    <br>
+     <br><br>
+     <br>
+        <div class="fundo">
+    
+        </div>
+        <div class="fundo2">
+                   
+        </div>
+
+<!-- INÍCIO CONTEÚDO -->
+    
+        
+      <div class="container" style="margin-right: 260px;">
+        <h2><p id="inicio" style="color: #001536"> Pacotes de viagem que cabem no seu bolso</p><br><br><br><br></h2>
+        <div class="row">
+            <div class="col-md-2" style="margin-left: 50px; margin-right: 50px;"></div>
+                <div class="col-md-9">
+                    <div class="row">
+                      <div class="col-sm-4 col-lg-4 col-md-4">
+                         <div class="thumbnail" id="teste3" style="box-shadow: 3px 3px 10px 5px #adabab;"> 
+						  <a onclick="funcao1()" value="Exibir Alert">
+                                <img src="img/imgsalvador.jpg" style="height:130px;width:100%; ">
+                            </a>
+                            <div class="caption">
+                                <img src="img/estrelas3.png" style="height: 40px; width: 40%; position: absolute; left: 155px; top: 146px; ">
+                                <h4>Salvador</a>
+                                </h4>
+                                <p>Bahia</p>
+                                <p>Diária (3 dias) + Passagem aérea</p>
+                                <strong>A partir de R$: 599,90</strong>
+                            </div>
+                            <div class="ratings">
+							 <p> <center> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                         Adicionar pacote
+                                    </button>
+                            </p>                
+                            </div>
+                        </div>
+                    </div>		
+					<div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail" id="teste3" style="box-shadow: 3px 3px 10px 5px #adabab;"> 
+						    <a onclick="funcao1()" value="Exibir Alert">
+                                <img src="img/imgriodejaneiro.jpg" style="height:130px;width:100%; ">
+                            </a>
+                        <div class="caption">
+                                <img src="img/estrelas3.png" style="height: 40px; width: 40%; position: absolute; left: 155px; top: 146px; ">
+                                <h4>Copacabana</h4>
+                                <p>Rio de Janeiro</p>
+                                <p>Diária (3 dias) + Passagem aérea</p>
+                                <strong>A partir de R$: 499,90 </strong>
+                            </div>
+                            <div class="ratings">
+                             <p> <center> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                         Adicionar pacote
+                                    </button>
+                            </p>                
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail" id="teste3" style="box-shadow: 3px 3px 10px 5px #adabab;"> 
+						  <a onclick="funcao1()" value="Exibir Alert">
+                            <img src="img/imgmaragogi.jpg" style="height:130px;width:100%; ">
+                          </a>
+                            <div class="caption">
+                                <img src="img/estrelas3.png" style="height: 40px; width: 40%; position: absolute; left: 155px; top: 146px; ">
+                                <h4>Maragogi</a>
+                                </h4>
+                                <p>Alagoas</p>
+                                <p>Diária (7 dias) + Passagem aérea</p>
+                                <strong>A partir de R$: 899,90</strong>
+                            </div>
+                             <div class="ratings">
+                             <p> <center> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                         Adicionar pacote
+                                    </button>
+                            </p>                
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail" id="teste3" style="box-shadow: 3px 3px 10px 5px #adabab;"> 
+						  <a onclick="funcao1()" value="Exibir Alert">
+                            <img src="img/imglondres.jpg" style="height:130px;width:100%; ">
+                          </a>
+                            <div class="caption">
+                                <img src="img/estrelas3.png" style="height: 40px; width: 40%; position: absolute; left: 155px; top: 146px; ">
+                                <h4>Londres</h4>
+                                <p>Inglaterra</p>
+                                <p>Diária (4 dias) + Passagem aérea</p>
+                                <strong>A partir de R$: 1899,90</strong>
+                            </div>
+                             <div class="ratings">
+                             <p> <center> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                         Adicionar pacote
+                                    </button>
+                            </p>                
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail" id="teste3" style="box-shadow: 3px 3px 10px 5px #adabab;"> 
+						  <a onclick="funcao1()" value="Exibir Alert">
+                            <img src="img/imgcanada.jpg" style="height:130px;width:100%; ">
+                          </a>
+                            <div class="caption">
+                                <img src="img/estrelas3.png" style="height: 40px; width: 40%; position: absolute; left: 155px; top: 146px; ">
+                                <h4>Toronto</a>
+                                </h4>
+                                <p>Canadá</p>
+                                <p>Diária (3 dias) + Passagem aérea</p>
+                                <strong>A partir de R$: 1999,90</strong>
+                            </div>
+                             <div class="ratings">
+                             <p> <center> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                         Adicionar pacote
+                                    </button>
+                            </p>                
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail" id="teste3" style="box-shadow: 3px 3px 10px 5px #adabab;"> 
+						  <a onclick="funcao1()" value="Exibir Alert">
+                            <img src="img/imgnewyork.jpg" style="height:130px;width:100%; ">
+                          </a>
+                            <div class="caption">
+                                <img src="img/estrelas3.png" style="height: 40px; width: 40%; position: absolute; left: 155px; top: 146px; ">
+                                <h4>Nova York</a>
+                                </h4>
+                                <p>Estados Unidos</p>
+                                <p>Diária (4 dias) + Passagem aérea</p>
+                                <strong>A partir de R$: 2199,90</strong>
+                            </div>
+                             <div class="ratings">
+                             <p> <center> 
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                         Adicionar pacote
+                                    </button>
+                            </p>                
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+		
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- FIM CONTEÚDO -->
+<br><br><br><br><br><br><br><br>
+
+<!-- rodapé -->
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <img src="img/logo.png" width="200px" height="100px" >
+                <!-- links do rodapé -->
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    ·
+                    <a href="#">Sobre nós</a>
+                    ·
+                    ·
+                    <a href="#">Contato</a>
+                    ·
+                    
+                </p>
+                        <!-- nome da empresa-->
+                <p class="footer-company-name">Update Sem Where &copy; 2020</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <!-- local -->
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Vila Carrão</span>São Paulo, Brasil</p>
+                </div>
+
+                <div>
+                    <!-- telefone -->
+                    <i class="fa fa-phone"></i>
+                    <p><br>+55 11 2020-2020</p>
+                </div>
+
+                <div>
+                    <!-- email -->
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="http://www.gmail.com" style="color:white;">contato@updatesemwhere.com.br</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about" align="justify">
+                    <span>Sobre a Update Sem Where</span>
+                    Nós somos um grupo de 6 alunos da Universidade Cidade de São Paulo e fizemos um projeto para uma agência de turismo.
+                </p>
+
+            </div>
+
+        </footer>
+
+        <!-- Modal de alerta -->
+        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Pacote adicionado com sucesso!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</body>
+
+
+
+</html>
+

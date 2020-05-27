@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Update sem Where - Agencia de viagens</title>
+
+  <!-- puxando o css do projeto e o bootstrap-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css1/modern-business.css" rel="stylesheet">
+      <link href="css1/bootstrap.min.css" rel="stylesheet">
+    <link href="css1/modern-business.css" rel="stylesheet">
+
+<!--- puxar o css do bootstrap pra fazer o carrossel de imagens -->
+        <link rel="stylesheet" href="css1/bootstrap.css" />
+      <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="css1/js/bootstrap.js"></script>
+
+
+  
+  <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css"> 
+
+  <style type="text/css">
+
+    #teste3{position:relative;top:0;padding:4px;
+         transition: all .3s ease-in-out}
+         #teste3:hover{top:-15px;box-shadow:0 4px 3px #999}
+
+         /* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: #191970;
+  font-family: "Century gothic";
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  border-radius: 4px 4px 4px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #191970;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ddd;}
+
+ .mais {
+
+  font-family:"Century gothic regular";
+  font-size:14px;
+  font-weight: bold;
+ }
+
+ .image-menu {
+  width: 24px;
+  height: 24px;
+
+ }
+
+ .fundo{
+    width: 100%;
+    height: 200px;
+    margin-top: -60px;
+    border-radius: 28px 28px 28px 10px;
+    background-color: #001536;
+ }
+ .fundo2{
+       width: 100%;
+    height: 130px;
+    border-radius: 28px 28px 28px 10px;
+    margin-top: -100px;
+    background-color: white;
+ }
+  </style>
+
+</head>
+
+<body>
+
+<!-- INÍCIO TOPO (HEADER) -->
+<div class="topo">
+    <!-- imagem do menu -->
+<div class="img"><a href="index.html"><img src="img/logo.png" width="180px" height="88px"align="right" style="user-select: none; margin-top: 20px" ></a></div>
+
+<!-- div do menu -->
+
+<div class="menu" style="margin-top: -40px">
+
+  <ul style="user-select: none; ">
+    <li style="width:115px; "  class="dropdown" ><a href="index.html"><button class="dropbtn">
+    <img src="img/home.png" style="width: 22px; height: 24px;" class="image-menu"> Home</button></a></li>
+
+    <li style="width:150px; "  class="dropdown"><a href="pacotes.html"><button class="dropbtn">
+    <img src="img/passagens.png" class="image-menu"> Passagens</button></a></li>
+
+    <li style="width:130px; "  class="dropdown"><a href="pacotes.html"><button class="dropbtn">
+    <img src="img/pacotes.png" class="image-menu"> Pacotes</button></a></li>
+
+    <li style="width:150px; "  class="dropdown"><a href="cruzeiros.html"><button class="dropbtn">
+    <img src="img/cruzeiro.png" class="image-menu"> Cruzeiros</button></a></li>
+
+    <li style="width:115px; "  class="dropdown"><a href="hoteis.html"><button class="dropbtn">
+    <img src="img/hotel.png" class="image-menu" style="width: 18px; height: 20px;"> Hoteis</button></a></li>
+
+    <li style="width:125px; "  class="dropdown"><a href="resorts.html"><button class="dropbtn">
+    <img src="img/cruzeiro.png" class="image-menu"> Resorts</button></li>
+
+    <div class="dropdown">
+        <button class="dropbtn">Mais <img src="img/seta.png"></button>
+        <div class="dropdown-content">
+          <a class="mais" href="dicasviagem.html"><img src="img/dicas.png"> Dicas de Viagens</a>
+          <a class="mais" href="contato.html"><img src="img/contato.png"> Contato</a>
+        </div>
+      </div>
+  </ul>
+    </div>    
+  </div>  
+    <!-- FIM--> 
+</div>
+<!-- FIM TOPO (HEADER) -->
+    <br><br>
+     <br>
+     <br>
+               <div class="fundo">
+    
+               </div>
+               <div class="fundo2">
+                   
+               </div>
+ 
+  <!-- formulario com php -->
+
+  <Br>
+	<centeR><h3>Caso queira entrar em contato com nosco, preenchar o formulario abaixo.</h3></centeR><Br><br><Br>
+   <div class="container" style="margin:0 auto;display:table;background-color:#f1111;width:25%;">
+   
+	<!-- disparo de email -->
+	 <form action="https://simplesheets.000webhostapp.com/contatoForm.php"	method="post">
+	 
+		<div class="form-group">
+		<label style="color:#000;">Nome:</label>
+				<input type="text" name="nome" id="nome" class="form-control" placeholder="Nome" / >
+				
+   </div>
+		<div class="form-group">
+		<label style="color:#000;">Email:</label>
+			<input type="text" name="email" id="email" class="form-control" placeholder="Email" / >
+	
+	</div>
+   	<div class="form-group">
+		<label style="color:#000;">Telefone:</label>
+			<input type="text" name="telefone" id="telefone" class="form-control" placeholder="Telefone" / >
+	
+	</div>
+   
+   <div class="form-group">
+		<label style="color:#000;">Sexo:</label>
+				<div class="f1" style="color:#000;">
+				<input type="radio"  id="femi"  name="sexo" value="Masculino"/ > Masculino &nbsp;
+				<input type="radio" id="masc"  name="sexo" value="Feminino" / > Feminino
+				</div>
+	</div>
+	
+	<div class="form-group">
+		<label style="color:#000;">Deixe aqui sua mensagem:</label>
+		
+			 <textarea cols="30" rows="5" class="form-control" name="msg" id="msg" style="height:200px;text-align:justify" placeholder="Digite aqui"></textarea>
+				
+   </div>
+  
+  <div class="form-group">
+				<div class="f2">
+				<input type="reset" value="Limpar " class="btn btn-success btn-block" style="background-color: #191970; border-color: #191970; " / >&nbsp;
+				<input type="submit" value="Enviar " class="btn btn-success btn-block" style="background-color: #191970; border-color: #191970; " / >
+
+				
+   </div>
+   </div>
+   </div><br><br><br>
+<br>
+   <centeR><h1>Conheca a nossa localizacao!</h1></centeR><Br>
+
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117046.78531139488!2d-46.57858068928311!3d-23.542857271796372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5fdcd8db398f%3A0x97014393e4ef19b8!2sUniversidade%20Cidade%20de%20S%C3%A3o%20Paulo%20-%20UNICID!5e0!3m2!1spt-BR!2sbr!4v1587946337029!5m2!1spt-BR!2sbr" width="780" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
+  </form>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+<br>
+<br>
+<!-- rodapé -->
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <img src="img/logo.png" width="200px" height="100px" >
+        <!-- links do rodapé -->
+        <p class="footer-links">
+          <a href="#">Home</a>
+          &#46
+          <a href="#">Sobre n&oacutes</a>
+          &#46
+          &#46
+          <a href="#">Contato</a>
+          &#46
+          
+        </p>
+            <!-- nome da empresa-->
+        <p class="footer-company-name">Update Sem Where &copy; 2020</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <!-- local -->
+          <i class="fa fa-map-marker"></i>
+          <p><span>Vila Carr&atildeo</span>S&atildeo Paulo, Brasil</p>
+        </div>
+
+        <div>
+          <!-- telefone -->
+          <i class="fa fa-phone"></i>
+          <p><br>+55 11 2020-2020</p>
+        </div>
+
+        <div>
+          <!-- email -->
+          <i class="fa fa-envelope"></i>
+          <p><a href="http://www.gmail.com" style="color:white;">contato@updatesemwhere.com.br</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about" align="justify">
+          <span>Sobre a Update Sem Where</span>
+          N&oacutes somos um grupo de 6 alunos da Universidade Cidade de S&atildeo Paulo e fizemos um projeto para uma ag&ecircncia de turismo.
+        </p>
+
+
+      </div>
+
+    </footer>
+
+
+
+		
+</body>
+
+
+</html>
+
+
+	
+	
